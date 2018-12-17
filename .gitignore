@@ -1,0 +1,4 @@
+# Files for git to ignore
+.DS_Store
+.env
+node_modules
