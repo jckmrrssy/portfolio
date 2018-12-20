@@ -5,6 +5,7 @@ import Portfolio from "./pages/Portfolio/Portfolio"
 import Contact from "./pages/Contact/Contact"
 import NavBar from "./components/NavBar/NavBar"
 import NotFound from "./pages/NotFound/NotFound"
+import Footer from "./components/Footer/Footer"
 
 const App = () => (
   <Router>
@@ -16,6 +17,7 @@ const App = () => (
         <Route exact path = "/contact" component = {Contact} />
         <Route component = {NotFound} />
       </Switch>
+      <Footer />
     </div>
   </Router>
 );
