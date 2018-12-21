@@ -1,0 +1,19 @@
+/* Parallax hidden default override */
+.parallax img {
+    display: inline-block;
+}
+
+/* About me */
+.aboutMeRow {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.imgGuy {
+    /* height: 400px;
+    width: 500px;
+    overflow: auto; */
+    border-radius: 10%;
+}
