@@ -34,7 +34,8 @@ export default class Home extends Component {
                                 {/* about me text */}
                                 <Col m={12} l={6} className= "aboutText">
                                     <h3 className="center-align">About me</h3>
-                                    <p className ="center-align">I'm a Full-Stack Web Developer who can design and build refined applications from mockup to rollout with a full database and back-end. My passion for development is rooted in my love for creative problem solving and my desire to make everyday life easier for app users. I focus on the MERN stack (Mongo, Express.js, React.js, Node.js), and particularly like working with front-end technologies.</p>
+                                    <p className="center-align">I'm a Full-Stack Web Developer who can design and build refined applications from mockup to rollout with a full database and back-end. My passion for development is rooted in my love for creative problem solving and my desire to make everyday life easier for app users. I focus on the MERN stack (Mongo, Express.js, React.js, Node.js), and particularly like working with front-end technologies.</p>
+                                    <p className="center-align">I graduated from the University of Wisconsin-Madison with a degree in finance, and have two years’ experience in the financial services industry. Having just completed the University of Minnesota’s Full-Stack Developer coding bootcamp, I’m ready and up to date with the latest techniques and technologies.</p>
                                 </Col>
                                 {/* right side spacing column */}
                                 <Col s={1} ></Col>
@@ -85,13 +86,14 @@ export default class Home extends Component {
                                 {/* Contact header */}
                                 <Col m={10} l = {4}>
                                     <h3 className = "center-align">Contact</h3>
+                                    <p className ="center-align">Thank you for visiting my page. I look forward to hearing from you.</p>
                                 </Col>
                                 <Col m={12} l={6} className="center-align">
                                     <ul>
-                                        <li><FontAwesomeIcon icon={faMobileAlt} /> (952) 220-1314</li>
-                                        <li><FontAwesomeIcon icon={faEnvelope} /><a href="mailto:j.morrissey.16@gmail.com"> j.morrissey.16@gmail.com</a></li>
-                                        <li><FontAwesomeIcon icon={faLinkedin} /><a href="http://www.linkedin.com/in/jackmorrissey"> https://www.linkedin.com/in/jackmorrissey/</a></li>
-                                        <li><FontAwesomeIcon icon={faGithubSquare} /><a href="http://www.github.com/jckmrrssy">https://github.com/jckmrrssy</a></li>
+                                        <li><FontAwesomeIcon icon={faMobileAlt} />   (952) 220-1314</li>
+                                        <li><FontAwesomeIcon icon={faEnvelope} /><a href="mailto:j.morrissey.16@gmail.com">   j.morrissey.16@gmail.com</a></li>
+                                        <li><FontAwesomeIcon icon={faLinkedin} /><a href="http://www.linkedin.com/in/jackmorrissey">   https://www.linkedin.com/in/jackmorrissey/</a></li>
+                                        <li><FontAwesomeIcon icon={faGithubSquare} /><a href="http://www.github.com/jckmrrssy">   https://github.com/jckmrrssy</a></li>
                                     </ul>
                                 </Col>
                                 {/* right spacer */}
