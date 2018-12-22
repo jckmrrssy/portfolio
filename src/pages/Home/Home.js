@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Row, Col, Parallax, Card, CardTitle } from "react-materialize";
 import projects from "../../portfolio.json"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin } from "@fortawesome/free-solid-svg-icons";
-import { faGithubSquare } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 import "./Home.css"
@@ -82,10 +82,10 @@ export default class Home extends Component {
                                 </Col>
                                 <Col m={12} l={6} className="center-align">
                                     <ul>
-                                        <li><FontAwesomeIcon icon={faMobileAlt} />(952) 220-1314</li>
-                                        <li><FontAwesomeIcon icon={faEnvelope} /><a href="mailto:j.morrissey.16@gmail.com">j.morrissey.16@gmail.com</a></li>
-                                        <li><FontAwesomeIcon icon={fa} /><a href="http://www.linkedin.com/in/jackmorrissey">https://www.linkedin.com/in/jackmorrissey/</a></li>
-                                        <li><FontAwesomeIcon icon={fa} /><a hre="http://www.github.com/jckmrrssy"></a>https://github.com/jckmrrssy</li>
+                                        <li><FontAwesomeIcon icon={faMobileAlt} /> (952) 220-1314</li>
+                                        <li><FontAwesomeIcon icon={faEnvelope} /><a href="mailto:j.morrissey.16@gmail.com"> j.morrissey.16@gmail.com</a></li>
+                                        <li><FontAwesomeIcon icon={faLinkedin} /><a href="http://www.linkedin.com/in/jackmorrissey"> https://www.linkedin.com/in/jackmorrissey/</a></li>
+                                        <li><FontAwesomeIcon icon={faGithubSquare} /><a hre="http://www.github.com/jckmrrssy"></a> https://github.com/jckmrrssy</li>
                                     </ul>
                                 </Col>
                                 {/* right spacer */}
