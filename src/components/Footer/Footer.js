@@ -4,7 +4,7 @@ import "./Footer.css";
 
 const Foot = () => (
     
-    <Footer copyrights="Copyright 2018" className="blue-grey darken-4 center-align" > 
+    <Footer copyrights="©2018" className="blue-grey darken-4 center-align" > 
     </Footer>
 )
 

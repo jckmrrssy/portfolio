@@ -12,8 +12,17 @@
 }
 
 .imgGuy {
-    /* height: 400px;
-    width: 500px;
-    overflow: auto; */
     border-radius: 10%;
 }
+
+.portfolioRow {
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contactRow {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+

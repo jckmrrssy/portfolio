@@ -1,13 +1,19 @@
 import React, { Component } from "react";
-import { Row, Col, Parallax } from "react-materialize";
+import { Row, Col, Parallax, Card, CardTitle } from "react-materialize";
+import portfolio from "../../portfolio.json"
 import "./Home.css"
 
 export default class Home extends Component {
     
+    state = {
+        portfolio
+    };
+
     render() {
 
         return (
             <div>
+                {/* About me */}
                 <Parallax imageSrc= "../../images/yay.jpeg" />
                     <div className ="section white">
                         <div className ="row-container aboutMeRow">
@@ -28,18 +34,49 @@ export default class Home extends Component {
                             </Row>
                         </div>
                     </div>
+                {/* Portfolio */}
                 <Parallax imageSrc="../../images/lighterTexture.jpg" />
                     <div className = "section blue-grey darken-4">
-                        <div className = "row-container">
+                        <div className = "row-container portfolioRow">
+                            {/* Portfolio Header */}
                             <Row>
-                                <p className = "white-text">This will probably have a child card component that renders by portfolilo stuff </p>
+                                <Col s={12}>
+                                    <h3 className= "white-text">Portfoilo</h3>
+                                </Col>   
+                            </Row>
+                            {/* Portfolio Cards */}
+                            <Row>
+                                <Col m={12} l={6}>
+                                    <Card className='small' header={
+                                        <CardTitle image="#">Card Title
+                                        </CardTitle>}
+                                            actions={[<a href='#'>This is a Link</a>]}>
+                                            I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+                                    </Card> 
+                                </Col>
                             </Row>
                         </div>
                     </div>
+                {/* Contact */}
                 <Parallax imageSrc="../../images/anotherOne.jpeg" />
                     <div className = "section white">
-                        <div className = "row-container">
-                            contact stuff need it to work no db for now mailto
+                        <div className = "row-container contactRow">
+                            <Row>
+                                {/* left spacer */}
+                                <Col s={1}></Col>
+                                {/* Contact header */}
+                                <Col m={10} l = {4}>
+                                    <h3 className = "center-align">Contact</h3>
+                                </Col>
+                                <Col m={12} l={6} className="center-align">
+                                    <ul>
+                                        <li>(952) 220-1314</li>
+                                        <li>j.morrissey.16@gmail.com</li>
+                                        <li>https://www.linkedin.com/in/jackmorrissey/</li>
+                                        <li>https://github.com/jckmrrssy</li>
+                                    </ul>
+                                </Col>
+                            </Row>  
                         </div>
                     </div>
             </div>
