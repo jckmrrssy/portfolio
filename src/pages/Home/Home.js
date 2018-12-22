@@ -46,8 +46,9 @@ export default class Home extends Component {
                             </Row>
                             {/* Portfolio Cards */}
                             <Row>
-                                <Col m={12} l={4}>
+                                
                                     {this.state.projects.map(project => (
+                                        <Col m={12} l={6}>
                                         <Card className = "medium" header=
                                         {<CardTitle reveal image={project.image} waves="light"/>}
                                             title={project.title}
@@ -58,8 +59,9 @@ export default class Home extends Component {
                                                 </div>
                                                 }>
                                         </Card> 
+                                        </Col>
                                     ))}
-                                </Col>
+                                
                             </Row>
                         </div>
                     </div>
