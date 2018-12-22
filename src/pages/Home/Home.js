@@ -88,12 +88,12 @@ export default class Home extends Component {
                                     <h3 className = "center-align">Contact</h3>
                                     <p className ="center-align">Thank you for visiting my page. I look forward to hearing from you.</p>
                                 </Col>
-                                <Col m={12} l={6} className="center-align">
+                                <Col m={12} l={6} className="center-align" >
                                     <ul>
                                         <li><FontAwesomeIcon icon={faMobileAlt} />   (952) 220-1314</li>
                                         <li><FontAwesomeIcon icon={faEnvelope} /><a href="mailto:j.morrissey.16@gmail.com">   j.morrissey.16@gmail.com</a></li>
-                                        <li><FontAwesomeIcon icon={faLinkedin} /><a href="http://www.linkedin.com/in/jackmorrissey">   https://www.linkedin.com/in/jackmorrissey/</a></li>
-                                        <li><FontAwesomeIcon icon={faGithubSquare} /><a href="http://www.github.com/jckmrrssy">   https://github.com/jckmrrssy</a></li>
+                                        <li><FontAwesomeIcon icon={faLinkedin} /><a href="http://www.linkedin.com/in/jackmorrissey">  jackmorrissey</a></li>
+                                        <li><FontAwesomeIcon icon={faGithubSquare} /><a href="http://www.github.com/jckmrrssy">   @jckmrrssy</a></li>
                                     </ul>
                                 </Col>
                                 {/* right spacer */}

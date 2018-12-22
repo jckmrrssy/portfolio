@@ -19,14 +19,14 @@
         "id": "3",
         "title": "Pod Health",
         "image": "../../images/pod.png", 
-        "description": "Pod was created as a resource for those experiencing possible symptoms of mental health disorders, those who have been formally diagnosed with a mental illness, families seeking information to support a loved one, and the public in general. This app features API calls to both Yelp and Google, the Boostrap CSS framework, Javascript and jQuery.",
+        "description": "Pod was created as a resource for those experiencing possible symptoms of mental health disorders, those who have been formally diagnosed with a mental illness, families seeking information to support a loved one, and the public in general. This app features API calls to both Yelp and Google, the Bootstrap CSS framework, Javascript and jQuery.",
         "link": "https://p1d.herokuapp.com/index.html"
      },
      {
         "id": "4",
         "title": "Liri",
         "image": "../../images/Liri.png", 
-        "description": "This command line Node.js application uses various npm packages to make API requests. Users are able search for songs, movies and upcoming band performances and will receive results related to their search term. This is a quick and easy way to find an upcoming concert of your favorite artist, find out more about that song you heard on the radio, and learn some good movie trivia.",
+        "description": "This command line Node.js application uses various npm packages to make API calls. Users are able search for songs, movies and upcoming band performances and will receive results related to their search term. This is a quick and easy way to find an upcoming concert of your favorite artist, find out more about that song you heard on the radio, and learn some good movie trivia.",
         "link": "https://github.com/jckmrrssy/liri-node-app"
      },
      {
