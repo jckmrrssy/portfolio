@@ -27,7 +27,7 @@ export default class Home extends Component {
                                 {/* about me text */}
                                 <Col m={12} l={6} className= "aboutText">
                                     <h3 className="center-align">About me</h3>
-                                    <p className ="center-align">This is where more stuff about me is going to go. I'm not sure how far out these sides will go. I guess I can just keep typing stuff up until we see. Typing typing typing typing typing typing typing</p>
+                                    <p className ="center-align">I'm a Full-Stack Web Developer who can design and build refined applications from mockup to rollout with a full database and back-end. My passion for development is rooted in my love of creative problem solving and my desire to make everyday life easier for app users. I focus on the MERN stack (Mongo, Express.js, React.js, Node.js), and particularly like working with front-end technologies.</p>
                                 </Col>
                                 {/* right side spacing column */}
                                 <Col s={1} ></Col>
@@ -48,7 +48,7 @@ export default class Home extends Component {
                             <Row>
                                     {this.state.projects.map(project => (
                                         <Col m={12} l={6}>
-                                            <Card className = "small" header=
+                                            <Card className = "small hoverable" header=
                                             {<CardTitle reveal image={project.image} waves="light"/>}
                                                 title={project.title}
                                                 reveal={
@@ -78,8 +78,8 @@ export default class Home extends Component {
                                 <Col m={12} l={6} className="center-align">
                                     <ul>
                                         <li>(952) 220-1314</li>
-                                        <li>j.morrissey.16@gmail.com</li>
-                                        <li>https://www.linkedin.com/in/jackmorrissey/</li>
+                                        <li><i className="small material-icons ">email</i><a href="mailto:j.morrissey.16@gmail.com">j.morrissey.16@gmail.com</a></li>
+                                        <li><a href="http://www.linkedin.com/in/jackmorrissey">https://www.linkedin.com/in/jackmorrissey/</a></li>
                                         <li>https://github.com/jckmrrssy</li>
                                     </ul>
                                 </Col>
