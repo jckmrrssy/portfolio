@@ -85,7 +85,7 @@ export default class Home extends Component {
                                         <li><FontAwesomeIcon icon={faMobileAlt} /> (952) 220-1314</li>
                                         <li><FontAwesomeIcon icon={faEnvelope} /><a href="mailto:j.morrissey.16@gmail.com"> j.morrissey.16@gmail.com</a></li>
                                         <li><FontAwesomeIcon icon={faLinkedin} /><a href="http://www.linkedin.com/in/jackmorrissey"> https://www.linkedin.com/in/jackmorrissey/</a></li>
-                                        <li><FontAwesomeIcon icon={faGithubSquare} /><a hre="http://www.github.com/jckmrrssy"></a> https://github.com/jckmrrssy</li>
+                                        <li><FontAwesomeIcon icon={faGithubSquare} /><a href="http://www.github.com/jckmrrssy"></a> https://github.com/jckmrrssy</li>
                                     </ul>
                                 </Col>
                                 {/* right spacer */}
