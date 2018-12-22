@@ -10,7 +10,7 @@
     {
         "id": "2",
         "title": "wordWad",
-        "image": "../../images/wordWad.png", 
+        "image": "../../images/wordwad.png", 
         "description": "Choose-your-own-adventure-book style social game. Allows users to create and view stories, and the ability to add on to previously created stories resulting in multiple different story outcomes. Technologies used include Express.js, MySQL, jQuery, and Passport.js.",
         "link": "https://github.com/jckmrrssy/wordwad"
 
