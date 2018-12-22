@@ -26,21 +26,21 @@
         "id": "4",
         "title": "Liri",
         "image": "../../images/Liri.png", 
-        "description": "temporary",
+        "description": "This command line Node.js application uses various npm packages to make API requests. Users are able search for songs, movies and upcoming band performances and will receive results related to their search term. This is a quick and easy way to find an upcoming concert of your favorite artist, find out more about that song you heard on the radio, and learn some good movie trivia.",
         "link": "https://github.com/jckmrrssy/liri-node-app"
      },
      {
         "id": "5",
         "title": "Friend Finder",
         "image": "../../images/friendfinder.png", 
-        "description": "temporary",
+        "description": "This match making application will help you find the long lost friend you didn't know you were missing. It has ten carefully selected statements, and for each one, you select on a scale of 1-5 how much you agree with it. It will then display the best match for you based on your responses. The app uses Express.js, Node.js, and RESTful API routes.",
         "link": "https://jckmrrssy-friend-finder.herokuapp.com/"
      },
      {
         "id": "6",
         "title": "Train Scheduler",
         "image": "../../images/trainscheduler.png", 
-        "description": "temporary",
+        "description": "This is a train scheduling application intended be used by a scheduling adminstrator to keep track of departures. Moment.js and Firebase are the featured technologies in this app.",
         "link": "https://jckmrrssy.github.io/TrainScheduler/"
      }
 ]
