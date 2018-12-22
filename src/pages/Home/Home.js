@@ -6,6 +6,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faMobileAlt } from "@fortawesome/free-solid-svg-icons";
+import ScrollableAnchor from "react-scrollable-anchor";
 import "./Home.css"
 
 export default class Home extends Component {
@@ -47,7 +48,8 @@ export default class Home extends Component {
 
                 <Parallax imageSrc="../../images/lighterTexture.jpg" />
                     <div className = "section blue-grey darken-4">
-                        <div className = "row-container portfolioRow">
+                        <ScrollableAnchor id={"portfolioSection"}>
+                            <div className = "row-container portfolioRow">
                             {/* Portfolio Header */}
                             <Row>
                                 <Col s={12}>
@@ -73,12 +75,14 @@ export default class Home extends Component {
                                 
                             </Row>
                         </div>
+                        </ScrollableAnchor >
                     </div>
 
                 {/* Contact */}
 
                 <Parallax imageSrc="../../images/anotherOne.jpeg" />
                     <div className = "section white">
+                        <ScrollableAnchor id={"contactSection"} >
                         <div className = "row-container contactRow">
                             <Row>
                                 {/* left spacer */}
@@ -100,6 +104,7 @@ export default class Home extends Component {
                                 <Col s={1}></Col>
                             </Row>  
                         </div>
+                        </ScrollableAnchor>
                     </div>
             </div>
            
