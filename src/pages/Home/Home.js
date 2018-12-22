@@ -49,10 +49,10 @@ export default class Home extends Component {
                                 <Col m={12} l={6}>
                                     {this.state.projects.map(project => (
                                         <Card className='small' header={
-                                            <CardTitle image="#">Card Title
+                                            <CardTitle image={project.image}>{project.title}
                                             </CardTitle>}
-                                                actions={[<a href='#'>This is a Link</a>]}>
-                                                I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+                                                actions={[<a href={project.link}>Link to project</a>]}>
+                                                {project.description}
                                         </Card> 
                                     ))}
                                 </Col>
