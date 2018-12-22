@@ -18,7 +18,9 @@ export default class Home extends Component {
 
         return (
             <div>
+
                 {/* About me */}
+
                 <Parallax imageSrc= "../../images/yay.jpeg" />
                     <div className ="section white">
                         <div className ="row-container aboutMeRow">
@@ -27,7 +29,7 @@ export default class Home extends Component {
                                 <Col s={1} ></Col>
                                 {/* about me pic */}
                                 <Col m={10} l={4} className="picGuy">
-                                    <img className="imgGuy responsive-img" src="../../images/mePic.jpg"/>
+                                    <img alt ="a pic of jack" className="imgGuy responsive-img" src="../../images/mePic.jpg"/>
                                 </Col>
                                 {/* about me text */}
                                 <Col m={12} l={6} className= "aboutText">
@@ -39,7 +41,9 @@ export default class Home extends Component {
                             </Row>
                         </div>
                     </div>
+
                 {/* Portfolio */}
+
                 <Parallax imageSrc="../../images/lighterTexture.jpg" />
                     <div className = "section blue-grey darken-4">
                         <div className = "row-container portfolioRow">
@@ -69,7 +73,9 @@ export default class Home extends Component {
                             </Row>
                         </div>
                     </div>
+
                 {/* Contact */}
+
                 <Parallax imageSrc="../../images/anotherOne.jpeg" />
                     <div className = "section white">
                         <div className = "row-container contactRow">
@@ -85,7 +91,7 @@ export default class Home extends Component {
                                         <li><FontAwesomeIcon icon={faMobileAlt} /> (952) 220-1314</li>
                                         <li><FontAwesomeIcon icon={faEnvelope} /><a href="mailto:j.morrissey.16@gmail.com"> j.morrissey.16@gmail.com</a></li>
                                         <li><FontAwesomeIcon icon={faLinkedin} /><a href="http://www.linkedin.com/in/jackmorrissey"> https://www.linkedin.com/in/jackmorrissey/</a></li>
-                                        <li><FontAwesomeIcon icon={faGithubSquare} /><a href="http://www.github.com/jckmrrssy"></a> https://github.com/jckmrrssy</li>
+                                        <li><FontAwesomeIcon icon={faGithubSquare} /><a href="http://www.github.com/jckmrrssy">https://github.com/jckmrrssy</a></li>
                                     </ul>
                                 </Col>
                                 {/* right spacer */}

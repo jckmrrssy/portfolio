@@ -3,7 +3,7 @@
        "id": "1",
        "title": "Drink Order",
        "image": "../../images/drinkOrder.png", 
-       "description": "temporary",
+       "description": "A full-stack application developed collaboratively using Mongo, Express.js, React.js, and Node.js. This app is designed with the bar manager in mind, and is intended to assist in quickly and accurately coming up with drink prices when creating their cocktail menu.",
        "link": "https://drink-order.herokuapp.com/"
        
     },
@@ -11,7 +11,7 @@
         "id": "2",
         "title": "wordWad",
         "image": "../../images/wordWad.png", 
-        "description": "temporary",
+        "description": "Choose-your-own-adventure-book style social game. Allows users to create and view stories, and the ability to add on to previously created stories resulting in multiple different story outcomes. Technologies used include Express.js, MySQL, jQuery, and Passport.js.",
         "link": "https://github.com/jckmrrssy/wordwad"
 
      },
@@ -19,7 +19,7 @@
         "id": "3",
         "title": "Pod Health",
         "image": "../../images/pod.png", 
-        "description": "temporary",
+        "description": "Pod was created as a resource for those experiencing possible symptoms of mental health disorders, those who have been formally diagnosed with a mental illness, families seeking information to support a loved one, and the public in general. This app features API calls to both Yelp and Google, the Boostrap CSS framework, Javascript and jQuery.",
         "link": "https://p1d.herokuapp.com/index.html"
      },
      {
