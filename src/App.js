@@ -2,9 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home/Home"
 import NavBar from "./components/NavBar/NavBar";
-import Footer from "./components/Footer/Footer"
+import Footer from "./components/Footer/Footer";
 // import NotFound from "./pages/NotFound/NotFound"
-
 
 const App = () => (
   <Router>
