@@ -46,13 +46,17 @@ export default class Home extends Component {
                             </Row>
                             {/* Portfolio Cards */}
                             <Row>
-                                <Col m={12} l={6}>
+                                <Col m={12} l={4}>
                                     {this.state.projects.map(project => (
-                                        <Card className='small' header={
-                                            <CardTitle image={project.image}>{project.title}
-                                            </CardTitle>}
-                                                actions={[<a href={project.link}>Link to project</a>]}>
-                                                {project.description}
+                                        <Card className = "medium" header=
+                                        {<CardTitle reveal image={project.image} waves="light"/>}
+                                            title={project.title}
+                                            reveal={
+                                                <div>
+                                                    <p>{project.description}</p>
+                                                    <p><a href={project.link}>Link to project</a></p>
+                                                </div>
+                                                }>
                                         </Card> 
                                     ))}
                                 </Col>
