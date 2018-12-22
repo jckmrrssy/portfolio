@@ -34,13 +34,13 @@
         "title": "Friend Finder",
         "image": "", 
         "description": "temporary",
-        "link": ""
+        "link": "https://jckmrrssy-friend-finder.herokuapp.com/"
      },
      {
         "id": "6",
-        "title": "Google Books",
+        "title": "Train Scheduler",
         "image": "", 
         "description": "temporary",
-        "link": ""
+        "link": "https://jckmrrssy.github.io/TrainScheduler/"
      }
 ]

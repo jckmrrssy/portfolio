@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Row, Col, Parallax, Card, CardTitle } from "react-materialize";
-import portfolio from "../../portfolio.json"
+import projects from "../../portfolio.json"
 import "./Home.css"
 
 export default class Home extends Component {
     
     state = {
-        portfolio
+        projects
     };
 
     render() {
@@ -47,12 +47,14 @@ export default class Home extends Component {
                             {/* Portfolio Cards */}
                             <Row>
                                 <Col m={12} l={6}>
-                                    <Card className='small' header={
-                                        <CardTitle image="#">Card Title
-                                        </CardTitle>}
-                                            actions={[<a href='#'>This is a Link</a>]}>
-                                            I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
-                                    </Card> 
+                                    {this.state.projects.map(project => (
+                                        <Card className='small' header={
+                                            <CardTitle image="#">Card Title
+                                            </CardTitle>}
+                                                actions={[<a href='#'>This is a Link</a>]}>
+                                                I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+                                        </Card> 
+                                    ))}
                                 </Col>
                             </Row>
                         </div>
@@ -76,6 +78,8 @@ export default class Home extends Component {
                                         <li>https://github.com/jckmrrssy</li>
                                     </ul>
                                 </Col>
+                                {/* right spacer */}
+                                <Col s={1}></Col>
                             </Row>  
                         </div>
                     </div>
