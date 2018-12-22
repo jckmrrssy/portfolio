@@ -2,7 +2,7 @@
     {
        "id": "1",
        "title": "Drink Order",
-       "image": "", 
+       "image": "../../images/drinkOrder.png", 
        "description": "temporary",
        "link": "https://drink-order.herokuapp.com/"
        
@@ -10,7 +10,7 @@
     {
         "id": "2",
         "title": "wordWad",
-        "image": "", 
+        "image": "../../images/wordWad.png", 
         "description": "temporary",
         "link": "https://github.com/jckmrrssy/wordwad"
 
@@ -18,28 +18,28 @@
      {
         "id": "3",
         "title": "Pod Health",
-        "image": "", 
+        "image": "../../images/pod.png", 
         "description": "temporary",
         "link": "https://p1d.herokuapp.com/index.html"
      },
      {
         "id": "4",
         "title": "Liri",
-        "image": "", 
+        "image": "../../images/Liri.png", 
         "description": "temporary",
         "link": "https://github.com/jckmrrssy/liri-node-app"
      },
      {
         "id": "5",
         "title": "Friend Finder",
-        "image": "", 
+        "image": "../../images/friendfinder.png", 
         "description": "temporary",
         "link": "https://jckmrrssy-friend-finder.herokuapp.com/"
      },
      {
         "id": "6",
         "title": "Train Scheduler",
-        "image": "", 
+        "image": "../../images/trainscheduler.png", 
         "description": "temporary",
         "link": "https://jckmrrssy.github.io/TrainScheduler/"
      }
