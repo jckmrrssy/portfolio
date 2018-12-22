@@ -27,7 +27,7 @@ export default class Home extends Component {
                                 {/* about me text */}
                                 <Col m={12} l={6} className= "aboutText">
                                     <h3 className="center-align">About me</h3>
-                                    <p className ="center-align">I'm a Full-Stack Web Developer who can design and build refined applications from mockup to rollout with a full database and back-end. My passion for development is rooted in my love of creative problem solving and my desire to make everyday life easier for app users. I focus on the MERN stack (Mongo, Express.js, React.js, Node.js), and particularly like working with front-end technologies.</p>
+                                    <p className ="center-align">I'm a Full-Stack Web Developer who can design and build refined applications from mockup to rollout with a full database and back-end. My passion for development is rooted in my love for creative problem solving and my desire to make everyday life easier for app users. I focus on the MERN stack (Mongo, Express.js, React.js, Node.js), and particularly like working with front-end technologies.</p>
                                 </Col>
                                 {/* right side spacing column */}
                                 <Col s={1} ></Col>
@@ -79,7 +79,7 @@ export default class Home extends Component {
                                     <ul>
                                         <li>(952) 220-1314</li>
                                         <li><i className="small material-icons ">email</i><a href="mailto:j.morrissey.16@gmail.com">j.morrissey.16@gmail.com</a></li>
-                                        <li><a href="http://www.linkedin.com/in/jackmorrissey">https://www.linkedin.com/in/jackmorrissey/</a></li>
+                                        <li><i className="fas fa-linkedin"></i><a href="http://www.linkedin.com/in/jackmorrissey">https://www.linkedin.com/in/jackmorrissey/</a></li>
                                         <li>https://github.com/jckmrrssy</li>
                                     </ul>
                                 </Col>
