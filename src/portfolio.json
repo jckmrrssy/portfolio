@@ -3,7 +3,7 @@
        "id": "1",
        "title": "Drink Order",
        "image": "../../images/drinkOrder.png", 
-       "description": "A full-stack application developed collaboratively. Specifically, this app uses the MERN stack (Mongo, Express.js, React.js, and Node.js). We designed this with the bar manager in mind, and it is intended to assist them in quickly and accurately pricing drinks when creating their cocktail menus.",
+       "description": "A full-stack application developed collaboratively. Specifically, this app uses the MERN stack (Mongo, Express.js, React.js, and Node.js). We designed this with the bar manager in mind, and it is intended to assist managers in quickly and accurately pricing drinks when creating their cocktail menus.",
        "link": "https://drink-order.herokuapp.com/"
        
     },
