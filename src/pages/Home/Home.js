@@ -38,7 +38,7 @@ export default class Home extends Component {
                                     <h3 className="center-align">About me</h3>
                                     <p className="center-align">I'm a Full-Stack Web Developer who can design and build refined applications from mockup to rollout with a full database and back-end. My passion for development is rooted in my love for creative problem solving and my desire to make everyday life easier for app users. I focus on the MERN stack (Mongo, Express.js, React.js, Node.js), and particularly like working with front-end technologies.</p>
                                     <p className="center-align">I graduated from the University of Wisconsin-Madison with a degree in finance, and have two years of experience in the financial services industry. Having just completed the University of Minnesota’s Full-Stack Developer coding bootcamp, I’m ready and up to date with the latest techniques and technologies.</p>
-                                    <p className="center-align">I'm currently searching for a full-time junior developer or software engineering opportunity. If you are in need of a developer, check out some of my portfolio highlights below and feel free to contact me with any quesitons.</p>
+                                    <p className="center-align">I'm currently searching for a full-time junior developer or software engineering opportunity. If you are in need of a developer, check out some of my portfolio highlights below and feel free to contact me with any questions.</p>
                                 </Col>
                                 {/* right side spacer */}
                                 <Col s={1} ></Col>
