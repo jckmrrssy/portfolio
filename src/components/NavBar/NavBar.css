@@ -1,5 +1,9 @@
 .navbar {
     padding-left: 8%;
     padding-right: 5%; 
-    /* opacity: */
+    font-family: Roboto;
+}
+
+.nav-link {
+    font-family: Roboto;
 }
