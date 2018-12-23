@@ -8,7 +8,7 @@ export default class NavBar extends Component {
         
         return (
                 
-                <Navbar brand='[ jack morrissey ]' className="navbar blue-grey darken-4" right>
+                <Navbar brand='[ jack morrissey ]' className="navbar blue-grey darken-4" href="#aboutMeSection" right>
                     <NavItem href = "#portfolioSection" className ="nav-link">Portfolio</NavItem>
                     <NavItem href = "#contactSection" className = "nav-link">Contact</NavItem> 
                 </Navbar>  

@@ -24,6 +24,7 @@ export default class Home extends Component {
 
                 <Parallax imageSrc="../../images/yay.jpeg" />
                 <div className="section white">
+                <ScrollableAnchor id={"aboutMeSection"} >
                     <div className="row-container aboutMeRow">
                         <Row>
                             {/* left side spacer */}
@@ -43,6 +44,7 @@ export default class Home extends Component {
                             <Col s={1} ></Col>
                         </Row>
                     </div>
+                    </ScrollableAnchor>
                 </div>
 
                 {/* Portfolio */}
