@@ -19,7 +19,7 @@ export default class Home extends Component {
 
         return (
             <div>
-
+                
                 {/* About me */}
 
                 <Parallax imageSrc="../../images/yay.jpeg" />
@@ -97,11 +97,11 @@ export default class Home extends Component {
 
                                 {/* Contact header */}
 
-                                <Col m={10} l={4}>
+                                <Col s={12} l={4}>
                                     <h3 className="center-align">Contact</h3>
                                     <p className="center-align">Thank you for visiting my page. I look forward to hearing from you.</p>
                                 </Col>
-                                <Col m={12} l={6} className="center-align" >
+                                <Col s={12} l={6} className="center-align" >
                                     <ul>
                                         <li><FontAwesomeIcon icon={faMobileAlt} />   (952) 220-1314</li>
                                         <li><FontAwesomeIcon icon={faEnvelope} /><a href="mailto:j.morrissey.16@gmail.com">   j.morrissey.16@gmail.com</a></li>
