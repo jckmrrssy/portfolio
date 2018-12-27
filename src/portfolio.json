@@ -40,7 +40,7 @@
         "id": "6",
         "title": "Train Scheduler",
         "image": "../../images/trainscheduler.png", 
-        "description": "This is a train scheduling application intended be used by a scheduling adminstrator to keep track of departures. Moment.js and Firebase are the featured technologies in this app.",
+        "description": "This is a train scheduling application intended be used by a scheduling administrator to keep track of departures. Moment.js and Firebase are the featured technologies in this app.",
         "link": "https://jckmrrssy.github.io/TrainScheduler/"
      }
 ]
