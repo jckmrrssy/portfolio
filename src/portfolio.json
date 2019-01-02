@@ -4,7 +4,8 @@
        "title": "Drink Order",
        "image": "../../images/drinkOrder.png", 
        "description": "A full-stack application developed collaboratively. Specifically, this app uses the MERN stack (Mongo, Express.js, React.js, and Node.js). We designed this with the bar manager in mind, and it is intended to assist managers in quickly and accurately pricing drinks when creating their cocktail menus.",
-       "link": "https://drink-order.herokuapp.com/"
+       "githubLink": "https://github.com/jckmrrssy/Drink-Order",
+       "deployedLink": "https://drink-order.herokuapp.com/"
        
     },
     {
@@ -12,7 +13,9 @@
         "title": "wordWad",
         "image": "../../images/wordwad.png", 
         "description": "Choose-your-own-adventure-book style social game. Allows users to create and view stories, and the ability to add on to previously created stories resulting in multiple different story outcomes. Technologies used include Express.js, MySQL, jQuery, and Passport.js.",
-        "link": "https://github.com/jckmrrssy/wordwad"
+        "githubLink": "https://github.com/jckmrrssy/wordwad",
+        "deployedLink": "https://github.com/jckmrrssy/wordwad"
+        
 
      },
      {
@@ -20,27 +23,31 @@
         "title": "Pod Health",
         "image": "../../images/pod.png", 
         "description": "Pod was created as a resource for those experiencing possible symptoms of mental health disorders, those who have been formally diagnosed with a mental illness, families seeking information to support a loved one, and the public in general. This app features API calls to both Yelp and Google, the Bootstrap CSS framework, Javascript and jQuery.",
-        "link": "https://p1d.herokuapp.com/index.html"
+        "githubLink": "https://github.com/jckmrrssy/C9oneDirection",
+        "deployedLink": "https://p1d.herokuapp.com/index.html"
      },
      {
         "id": "4",
         "title": "Liri",
         "image": "../../images/Liri.png", 
         "description": "This command line Node.js application uses various npm packages to make API calls. Users are able search for songs, movies and upcoming band performances and will receive results related to their search term. This is a quick and easy way to find an upcoming concert of your favorite artist, find out more about that song you heard on the radio, and learn some good movie trivia.",
-        "link": "https://github.com/jckmrrssy/liri-node-app"
+        "githubLink": "https://github.com/jckmrrssy/liri-node-app",
+        "deployedLink": "https://drive.google.com/file/d/1tj05p-V68LGbbYE8P2s1lppTng5lPh9f/view"
      },
      {
         "id": "5",
         "title": "Friend Finder",
         "image": "../../images/friendfinder.png", 
         "description": "This match making application will help you find the long lost friend you didn't know you were missing. It has ten carefully selected statements, and for each one, you select on a scale of 1-5 how much you agree with it. It will then display the best match for you based on your responses. The app uses Express.js, Node.js, and RESTful API routes.",
-        "link": "https://jckmrrssy-friend-finder.herokuapp.com/"
+        "githubLink": "https://github.com/jckmrrssy/FriendFinder",
+        "deployedLink": "https://jckmrrssy-friend-finder.herokuapp.com/"
      },
      {
         "id": "6",
         "title": "Train Scheduler",
         "image": "../../images/trainscheduler.png", 
         "description": "This is a train scheduling application intended be used by a scheduling administrator to keep track of departures. Moment.js and Firebase are the featured technologies in this app.",
-        "link": "https://jckmrrssy.github.io/TrainScheduler/"
+        "githubLink": "https://github.com/jckmrrssy/TrainScheduler",
+        "deployedLink": "https://jckmrrssy.github.io/TrainScheduler/"
      }
 ]

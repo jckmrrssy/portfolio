@@ -73,7 +73,7 @@ export default class Home extends Component {
                                             reveal={
                                                 <div>
                                                     <p>{project.description}</p>
-                                                    <p><a href={project.link}>Link to project</a></p>
+                                                    <p><a href={project.deployedLink}>Link to project</a> | <a href={project.githubLink}>Link to repository</a></p>
                                                 </div>
                                             }>
                                         </Card>
