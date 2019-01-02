@@ -3,6 +3,10 @@
     display: inline-block;
 }
 
+.parallax-container {
+    height: 375px;
+}
+
 /* font settings */
 h3 {
     font-family: Roboto;
