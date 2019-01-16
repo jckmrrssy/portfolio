@@ -32,7 +32,7 @@ export default class Jumbo extends Component {
             <div className = "particlesGuy"> 
                 <Particles params={ParticlesConfig} />
                 <NavBar />
-                <h1 className="center-align white-text"><span ref={(el) => {this.el = el }}/></h1>
+                <h1 className="typedBanner center-align white-text"><span ref={(el) => {this.el = el }}/></h1>
             </div>
             )
         }

@@ -8,3 +8,8 @@
 .nav-link {
     font-family: Roboto;
 }
+
+a.brand-logo.left {
+    font-size: 24px;
+    padding-top: 5px;
+}

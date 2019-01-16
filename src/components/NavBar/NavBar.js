@@ -16,10 +16,7 @@ export default class NavBar extends Component {
                 <nav className= "navbar transparent">
                     <div className="nav-wrapper">
                     <a href="#aboutMeSection" className="brand-logo left">[ jem ]</a>
-                    <ul className="right hide-on-med-and-down">
-                        <li><a href="sass.html">github icon</a></li>
-                        <li><a href="badges.html">linkedin icon</a></li>
-                    </ul>
+                    
                     <ul id="nav-mobile" className="side-nav">
                         <li className = "nav-link">
                             <a href="#portfolioSection">Portfolio</a>
@@ -28,10 +25,13 @@ export default class NavBar extends Component {
                             <a href="#contactSection">Contact</a>
                         </li>
                     </ul>
-                    <a className = "button-collapse sidenav-trigger right" href="#" data-activates="nav-mobile">
+                    <a className = "button-collapse sidenav-trigger show-on-large right" href="#" data-activates="nav-mobile">
                         <i className="material-icons">view_headline</i>
                     </a>
-
+                    <ul className="right hide-on-med-and-down">
+                        <li><a href="sass.html">github icon</a></li>
+                        <li><a href="badges.html">linkedin icon</a></li>
+                    </ul>
                     </div>
                 </nav>
 
