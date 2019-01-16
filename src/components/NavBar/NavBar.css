@@ -2,8 +2,14 @@
     padding-left: 8%;
     padding-right: 5%; 
     font-family: Roboto;
+    box-shadow: none;
 }
 
 .nav-link {
     font-family: Roboto;
+}
+
+a.brand-logo.left {
+    font-size: 24px;
+    padding-top: 5px;
 }

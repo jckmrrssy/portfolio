@@ -1,0 +1,16 @@
+.particlesGuy {
+    height: 650px;
+    /* background-color: #0886de; */
+    /* background-color: #1b609d; */
+    background-color: #0086ff
+}
+
+canvas {
+    position: absolute;
+    max-height: 725px;
+}
+
+.typedBanner {
+    padding-top: 150px;
+    font-size: 60px;
+}
