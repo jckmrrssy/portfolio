@@ -7,6 +7,8 @@ import "./Jumbotron.css";
 
 export default class Jumbo extends Component {
     
+    
+
     componentDidMount() {
         const bannerGuy = [
             "Jack Morrissey",
