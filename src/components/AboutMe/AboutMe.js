@@ -10,7 +10,7 @@ export default class AboutMe extends Component {
             {/* About me */}
                 
                 
-                <div className="section white">
+                <div className="section grey lighten-4">
                     <ScrollableAnchor id={"aboutMeSection"} >
                         <div className="row-container aboutMeRow">
                             <Row>

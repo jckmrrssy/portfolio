@@ -20,7 +20,7 @@
         "move": {
             "random": true,
             "speed": 1,
-            "direction": "top",
+            "direction": "none",
             "out_mode": "out"
         }
     },
@@ -39,8 +39,8 @@
             "bubble": {
                 "distance": 250,
                 "duration": 2,
-                "size": 0,
-                "opacity": 0
+                "size": 0.25,
+                "opacity": 0.75
             },
             "repulse": {
                 "distance": 400,
