@@ -24,10 +24,10 @@ export default class Contact extends Component {
                                     <a href="mailto:j.morrissey.16@gmail.com"><FontAwesomeIcon className="fa-7x deep-orange-text text-lighten-2" icon={faEnvelope} /></a>
                                 </Col>
                                 <Col s={4} className="center-align iconGuy">
-                                     <a href="http://www.linkedin.com/in/jackmorrissey"><FontAwesomeIcon className="fa-7x blue-text" icon={faLinkedin} /></a>
+                                     <a target="_blank" rel="noopener noreferrer" href="http://www.linkedin.com/in/jackmorrissey"><FontAwesomeIcon className="fa-7x blue-text" icon={faLinkedin} /></a>
                                 </Col>
                                 <Col s={4} className="center-align iconGuy">
-                                    <a href="http://www.github.com/jckmrrssy"><FontAwesomeIcon className="fa-7x black-text" icon={faGithubSquare} /></a>
+                                    <a target="_blank" rel="noopener noreferrer" href="http://www.github.com/jckmrrssy"><FontAwesomeIcon className="fa-7x black-text" icon={faGithubSquare} /></a>
                                 </Col>
                             </Row>
                         </div>
