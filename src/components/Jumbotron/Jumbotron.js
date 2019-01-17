@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Particles from "react-particles-js";
-import ParticlesConfig from "../../particlesjs2-config.json";
+import ParticlesConfig from "../../particlesjs-config.json";
 import NavBar from "../NavBar/NavBar";
 import Typed from "typed.js";
 import "./Jumbotron.css";
