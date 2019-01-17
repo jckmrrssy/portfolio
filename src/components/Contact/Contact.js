@@ -15,6 +15,11 @@ export default class Contact extends Component {
                     <ScrollableAnchor id={"contactSection"} >
                         <div className="row-container contactRow">
                             <Row>
+                                <Col s={12} className = "center-align">
+                                    <h3>Connect with me:</h3>
+                                </Col>
+                            </Row>
+                            <Row>
                                 <Col s={4} className="center-align iconGuy">
                                     <a href="mailto:j.morrissey.16@gmail.com"><FontAwesomeIcon className="fa-7x deep-orange-text text-lighten-2" icon={faEnvelope} /></a>
                                 </Col>
