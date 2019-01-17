@@ -23,7 +23,7 @@ export default class Portfolio extends Component {
 
                             <Row>
                                 <Col s={12}>
-                                    <h3 className="white-text">Portfoilo</h3>
+                                    <h3 className="white-text">Portfolio</h3>
                                 </Col>
                             </Row>
 
