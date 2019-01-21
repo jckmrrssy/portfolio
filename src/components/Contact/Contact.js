@@ -21,7 +21,7 @@ export default class Contact extends Component {
                             </Row>
                             <Row>
                                 <Col s={4} className="center-align iconGuy">
-                                    <a href="mailto:j.morrissey.16@gmail.com"><FontAwesomeIcon className="fa-7x deep-orange-text text-lighten-2" icon={faEnvelope} /></a>
+                                    <a href="mailto:jack@jackmorrissey.io"><FontAwesomeIcon className="fa-7x deep-orange-text text-lighten-2" icon={faEnvelope} /></a>
                                 </Col>
                                 <Col s={4} className="center-align iconGuy">
                                      <a target="_blank" rel="noopener noreferrer" href="http://www.linkedin.com/in/jackmorrissey"><FontAwesomeIcon className="fa-7x blue-text" icon={faLinkedin} /></a>
