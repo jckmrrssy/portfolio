@@ -3,12 +3,14 @@ import ScrollableAnchor from "react-scrollable-anchor";
 import { Col, Row, Carousel } from "react-materialize";
 import "./AboutMe.css"
 
+
 export default class AboutMe extends Component {
-  render() {
+
+    render() {
     return (
       <div>
             {/* About me */}
-            <div className="section grey lighten-4">
+            <div className="section white">
                 <ScrollableAnchor id={"aboutMeSection"} >
                     <div className="row-container aboutMeRow">
                         <Row>
@@ -32,13 +34,25 @@ export default class AboutMe extends Component {
 
                         <Row>
                             <Col s={12} className="skillsCarousel">
-                                <Carousel options={{padding: 100, duration: 500, indicators: true }} images={[
-                                        '../../images/HTML5_Logo.svg',
-                                        '../../images/CSS3_Logo.png',
+                                <Carousel options={{ padding: 125, duration: 500, indicators: true }} images={[
+                                        '../../images/htmlLogo.png',
+                                        '../../images/cssLogo.png',
                                         '../../images/JS6.png',
-                                        '../../images/Bootstrap_Logo.png',
-                                        '../../images/Materialize_Logo.png',
-                                        '../../images/jQuery_Logo.png'
+                                        '../../images/ReactJSLogo.png',
+                                        '../../images/nodeLogo.png',
+                                        '../../images/npmLogo.png',
+                                        '../../images/mongoDBLogo.jpg',
+                                        '../../images/mongooseLogo.png',
+                                        '../../images/mySQLLogo.jpg',
+                                        '../../images/sequelizeLogo.png',
+                                        '../../images/expressJSLogo.png',
+                                        '../../images/bootstrapLogo.jpg',
+                                        '../../images/materializeLogo.png',
+                                        '../../images/jQuery_Logo.png',
+                                        '../../images/ajaxLogo.svg',
+                                        '../../images/gitLogo.svg',
+                                        '../../images/herokuLogo.png',
+                                        '../../images/VSCodeLogo.png'
                                         ]}
                                     />
                                 </Col>
