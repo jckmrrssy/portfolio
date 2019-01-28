@@ -1,0 +1,21 @@
+.carousel .carousel-item {
+    display: initial
+}
+
+.carousel-item.active {
+    display: initial
+}
+
+.skillsCarousel {
+    height: 400px;
+    width: 90%
+}
+
+.carousel .indicators .indicator-item {
+    background-color: lightgrey;
+}
+
+.carousel .indicators .indicator-item.active {
+    background-color: grey;
+}
+
