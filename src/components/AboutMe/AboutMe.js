@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ScrollableAnchor from "react-scrollable-anchor";
-import { Col, Row, Carousel } from "react-materialize";
+import { Col, Row } from "react-materialize";
+import SkillSlider from "../SkillSlider/SkillSlider"
 import "./AboutMe.css"
 
 
@@ -29,12 +30,17 @@ export default class AboutMe extends Component {
                             <Col s={12} l={8} className="aboutText">
                                 <p className="center-align">I'm a Full-Stack Web Developer who can design and build refined applications from mockup to rollout with a full database and back-end. My passion for development is rooted in my love for creative problem solving and my desire to make everyday life easier for app users. I'm particularly savvy working with front-end technologies and am always eager to learn new skills.</p>
                                 <p className="center-align">I have two years of experience in the financial services industry and just completed the University of Minnesota’s Full-Stack Developer program. I'm currently searching for a full-time junior developer or software engineering opportunity. If you are in need of a developer, check out some of my portfolio highlights below and feel free to contact me with any questions.</p>
+                                
                             </Col>
                         </Row>
 
                         <Row>
                             <Col s={12} className="skillsCarousel">
-                                <Carousel options={{ padding: 125, duration: 500, indicators: true }} images={[
+
+                            <SkillSlider />
+
+
+                                {/* <Carousel options={{ padding: 125, duration: 500, indicators: true }} images={[
                                         '../../images/htmlLogo.png',
                                         '../../images/cssLogo.png',
                                         '../../images/JS6.png',
@@ -54,7 +60,7 @@ export default class AboutMe extends Component {
                                         '../../images/herokuLogo.png',
                                         '../../images/VSCodeLogo.png'
                                         ]}
-                                    />
+                                    /> */}
                                 </Col>
                         </Row>
                     </div>
