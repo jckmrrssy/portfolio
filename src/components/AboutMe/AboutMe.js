@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ScrollableAnchor from "react-scrollable-anchor";
 import { Col, Row } from "react-materialize";
-import SkillSlider from "../SkillSlider/SkillSlider"
+import SkillSlider from "../SkillSlider/SkillSlider";
 import "./AboutMe.css"
 
 

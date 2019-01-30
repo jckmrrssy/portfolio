@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import ScrollableAnchor from "react-scrollable-anchor";
 import { Col, Row } from "react-materialize";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default class Contact extends Component {
   render() {
@@ -21,13 +17,13 @@ export default class Contact extends Component {
                             </Row>
                             <Row>
                                 <Col s={4} className="center-align iconGuy">
-                                    <a href="mailto:jack@jackmorrissey.io"><FontAwesomeIcon className="fa-7x deep-orange-text text-lighten-2" icon={faEnvelope} /></a>
+                                    <a href="mailto:jack@jackmorrissey.io"><i className="fas fa-envelope fa-7x"></i></a>
                                 </Col>
                                 <Col s={4} className="center-align iconGuy">
-                                     <a target="_blank" rel="noopener noreferrer" href="http://www.linkedin.com/in/jackmorrissey"><FontAwesomeIcon className="fa-7x blue-text" icon={faLinkedin} /></a>
+                                     <a target="_blank" rel="noopener noreferrer" href="http://www.linkedin.com/in/jackmorrissey"><i className="fab fa-linkedin fa-7x blue-text"></i></a>
                                 </Col>
                                 <Col s={4} className="center-align iconGuy">
-                                    <a target="_blank" rel="noopener noreferrer" href="http://www.github.com/jckmrrssy"><FontAwesomeIcon className="fa-7x black-text" icon={faGithubSquare} /></a>
+                                    <a target="_blank" rel="noopener noreferrer" href="http://www.github.com/jckmrrssy"><i className="fab fa-github-square fa-7x black-text"></i></a>
                                 </Col>
                             </Row>
                         </div>
