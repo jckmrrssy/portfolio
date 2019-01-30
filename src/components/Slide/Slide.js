@@ -4,7 +4,7 @@ import "./Slide.css";
 const Slide = ({ image }) => {
     const styles = {
         backgroundImage: `url(${image})`,
-        backgroundSize: 'cover',
+        backgroundSize: '250px 250px',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: '50% 60%'
     };
